@@ -1,9 +1,11 @@
-DOMAIN-SUFFIX,cordon-blue.com
+# FC2
 DOMAIN-SUFFIX,fc2.com
 DOMAIN-SUFFIX,fc2blog.net
 DOMAIN-SUFFIX,fc2china.com
 DOMAIN-SUFFIX,fc2cn.com
 DOMAIN-SUFFIX,fc2web.com
+# Soapland
+DOMAIN-SUFFIX,cordon-blue.com
 DOMAIN-SUFFIX,fengyuelou-tokyo.com
 DOMAIN-SUFFIX,gojapanhappy.com
 DOMAIN-SUFFIX,s-artemis.jp
