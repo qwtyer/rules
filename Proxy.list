@@ -1,6 +1,5 @@
 DOMAIN-SUFFIX,10musume.com
 DOMAIN-SUFFIX,1pondo.tv
-DOMAIN-SUFFIX,amytele.net
 DOMAIN-SUFFIX,aventertainments.com
 DOMAIN-KEYWORD,btsow
 DOMAIN-SUFFIX,caribbeancom.com
@@ -12,7 +11,6 @@ DOMAIN-SUFFIX,duyaoss.com
 DOMAIN-SUFFIX,fansly.com
 DOMAIN-SUFFIX,fellatiojapan.com
 DOMAIN-SUFFIX,fetisale.com
-DOMAIN-KEYWORD,flyingbird
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,heydouga.com
 DOMAIN-SUFFIX,heyzo.com
@@ -21,7 +19,6 @@ DOMAIN-SUFFIX,javfree.me
 DOMAIN-SUFFIX,jvrporn.com
 DOMAIN-SUFFIX,linktr.ee
 DOMAIN-SUFFIX,mikanani.me
-DOMAIN-SUFFIX,mojie.cyou
 DOMAIN-SUFFIX,onahodouga.com
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,pornhub.com
@@ -31,4 +28,11 @@ DOMAIN,testingcf.jsdelivr.net
 DOMAIN-SUFFIX,tokyo-hot.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,whatshub.top
+# VPN
+DOMAIN-SUFFIX,amytele.net
+DOMAIN-KEYWORD,flyingbird
+DOMAIN-SUFFIX,mojie.cyou
 DOMAIN-KEYWORD,xlinkworld
+# Pokemon TCGP
+DOMAIN-SUFFIX,nintendo.com
+DOMAIN-SUFFIX,pokemon-webapi.appspot.com
