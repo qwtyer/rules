@@ -1,38 +1,39 @@
+# A
 DOMAIN-SUFFIX,10musume.com
 DOMAIN-SUFFIX,1pondo.tv
 DOMAIN-SUFFIX,aventertainments.com
-DOMAIN-KEYWORD,btsow
 DOMAIN-SUFFIX,caribbeancom.com
-DOMAIN-SUFFIX,cilisousuo.com
-DOMAIN-SUFFIX,clashios.app
 DOMAIN-SUFFIX,cospuri.com
-DOMAIN-SUFFIX,dmhy.org
-DOMAIN-SUFFIX,duyaoss.com
 DOMAIN-SUFFIX,fansly.com
 DOMAIN-SUFFIX,fellatiojapan.com
 DOMAIN-SUFFIX,fetisale.com
-DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,heydouga.com
 DOMAIN-SUFFIX,heyzo.com
-DOMAIN,ispip.clang.cn
 DOMAIN-SUFFIX,javfree.me
 DOMAIN-SUFFIX,jvrporn.com
-DOMAIN-SUFFIX,linktr.ee
-DOMAIN-SUFFIX,mikanani.me
 DOMAIN-SUFFIX,onahodouga.com
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,sm-miracle.com
+DOMAIN-SUFFIX,tokyo-hot.com
+# Game - Pokemon TCGP
+DOMAIN-SUFFIX,pokemon-webapi.appspot.com
+#
+DOMAIN-KEYWORD,btsow
+DOMAIN-SUFFIX,cilisousuo.com
+DOMAIN-SUFFIX,clashios.app
+DOMAIN-SUFFIX,dmhy.org
+DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN,ispip.clang.cn
+DOMAIN-SUFFIX,linktr.ee
+DOMAIN-SUFFIX,mikanani.me
 DOMAIN-SUFFIX,synocommunity.com
 DOMAIN,testingcf.jsdelivr.net
-DOMAIN-SUFFIX,tokyo-hot.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,whatshub.top
 # VPN
 DOMAIN-SUFFIX,amytele.net
+DOMAIN-SUFFIX,duyaoss.com
 DOMAIN-KEYWORD,flyingbird
 DOMAIN-SUFFIX,mojie.cyou
 DOMAIN-KEYWORD,xlinkworld
-# Pokemon TCGP
-DOMAIN-SUFFIX,nintendo.com
-DOMAIN-SUFFIX,pokemon-webapi.appspot.com
