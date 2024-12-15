@@ -24,6 +24,7 @@ DOMAIN-SUFFIX,cilisousuo.com
 DOMAIN-SUFFIX,clashios.app
 DOMAIN-SUFFIX,dmhy.org
 DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN-SUFFIX,hostloc.com
 DOMAIN,ispip.clang.cn
 DOMAIN-SUFFIX,linktr.ee
 DOMAIN-SUFFIX,mikanani.me
@@ -37,3 +38,8 @@ DOMAIN-SUFFIX,duyaoss.com
 DOMAIN-KEYWORD,flyingbird
 DOMAIN-SUFFIX,mojie.cyou
 DOMAIN-KEYWORD,xlinkworld
+# Zoho Mail
+DOMAIN,imap.zoho.com
+DOMAIN,imappro.zoho.com
+DOMAIN,smtp.zoho.com
+DOMAIN,smtppro.zoho.com
