@@ -20,6 +20,8 @@ DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,spankbang.com
 DOMAIN-SUFFIX,sb-cd.com
 DOMAIN-SUFFIX,tokyo-hot.com
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,xvideos-cdn.com
 # Game - Pokemon TCGP
 DOMAIN-SUFFIX,pokemon-webapi.appspot.com
 #
@@ -42,7 +44,7 @@ DOMAIN-KEYWORD,flyingbird
 DOMAIN-SUFFIX,mojie.cyou
 DOMAIN-KEYWORD,xlinkworld
 # Zoho Mail
-DOMAIN,imap.zoho.com
-DOMAIN,imappro.zoho.com
-DOMAIN,smtp.zoho.com
-DOMAIN,smtppro.zoho.com
+DOMAIN-SUFFIX,imap.zoho.com
+DOMAIN-SUFFIX,imappro.zoho.com
+DOMAIN-SUFFIX,smtp.zoho.com
+DOMAIN-SUFFIX,smtppro.zoho.com
