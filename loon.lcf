@@ -15,7 +15,7 @@ WestData = https://wd-blue.com/subscribe/pyzbyj-rlef5ccj-4w4r1obe,udp=true,block
 
 [Remote Filter]
 #ALL_Filter = NameRegex, FilterKey = ".*"
-HK_Filter = NameRegex, FilterKey = "(?i)(香港|港|HK|Hong)"
+香港节点 = NameRegex, FilterKey = "(?i)(香港|港|HK|Hong)"
 JP_Filter = NameRegex, FilterKey = "(?i)(日本|日|JP|Japan)"
 US_Filter = NameRegex, FilterKey = "(?i)(美国|美|US|United States)"
 TW_Filter = NameRegex, FilterKey = "(?i)(台湾|台|TW|Tai)"
@@ -26,15 +26,15 @@ TW_Filter = NameRegex, FilterKey = "(?i)(台湾|台|TW|Tai)"
 
 [Proxy Group]
 # url-test
-HK = url-test,HK_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-JP = url-test,JP_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
-US = url-test,US_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
-TW = url-test,TW_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
+香港自动 = url-test,香港节点,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+日本自动 = url-test,JP_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+美国自动 = url-test,US_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+台湾自动 = url-test,TW_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
 #KR = url-test,KR_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
 #SG = url-test,SG_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
 
-Proxy = select,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
-#AI = US,JP,HK,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
+#Proxy = select,香港自动,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+AI = select,香港自动,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
 #Google = HK,JP,US,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
 #iCloud = DIRECT,JP,HK,US,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
 #Microsoft = DIRECT,HK,JP,US,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
