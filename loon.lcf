@@ -25,7 +25,7 @@ TW_Filter = NameRegex, FilterKey = "(?i)(台湾|台|TW|Tai)"
 [Proxy Chain]
 
 [Proxy Group]
-Proxy = 香港自动,日本自动,美国自动,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+#Proxy = 香港自动,日本自动,美国自动,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 AI = 美国自动,日本自动,香港自动,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
 Google = 香港自动,日本自动,美国自动,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
 iCloud = DIRECT,日本自动,香港自动,美国自动,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -49,27 +49,27 @@ FINAL,DIRECT
 
 [Remote Rule]
 # Proxy
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BBC/BBC.list, policy=Proxy, tag=BBC, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CNN/CNN.list, policy=Proxy, tag=CNN, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Discord/Discord.list, policy=Proxy, tag=Discord, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Docker/Docker.list, policy=Proxy, tag=Docker, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Dropbox/Dropbox.list, policy=Proxy, tag=Dropbox, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Facebook/Facebook.list, policy=Proxy, tag=Facebook, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GitHub/GitHub.list, policy=Proxy, tag=GitHub, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Line/Line.list, policy=Proxy, tag=Line, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Twitter/Twitter.list, policy=Proxy, tag=Twitter, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NYPost/NYPost.list, policy=Proxy, tag=NYPost, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NYTimes/NYTimes.list, policy=Proxy, tag=NYTimes, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Instagram/Instagram.list, policy=Proxy, tag=Instagram, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Pixiv/Pixiv.list, policy=Proxy, tag=Pixiv, enabled=true
-https://raw.githubusercontent.com/qwtyer/rules/refs/heads/main/Proxy.list, policy=Proxy, tag=Proxy, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Reddit/Reddit.list, policy=Proxy, tag=Reddit, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Telegram/Telegram.list, policy=Proxy, tag=Telegram, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Tumblr/Tumblr.list, policy=Proxy, tag=Tumblr, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Twitch/Twitch.list, policy=Proxy, tag=Twitch, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Twitter/Twitter.list, policy=Proxy, tag=Twitter, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/VOA/VOA.list, policy=Proxy, tag=VOA, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Whatsapp/Whatsapp.list, policy=Proxy, tag=Whatsapp, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BBC/BBC.list, policy=Proxy, tag=BBC, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CNN/CNN.list, policy=Proxy, tag=CNN, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Discord/Discord.list, policy=Proxy, tag=Discord, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Docker/Docker.list, policy=Proxy, tag=Docker, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Dropbox/Dropbox.list, policy=Proxy, tag=Dropbox, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Facebook/Facebook.list, policy=Proxy, tag=Facebook, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GitHub/GitHub.list, policy=Proxy, tag=GitHub, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Line/Line.list, policy=Proxy, tag=Line, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Twitter/Twitter.list, policy=Proxy, tag=Twitter, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NYPost/NYPost.list, policy=Proxy, tag=NYPost, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/NYTimes/NYTimes.list, policy=Proxy, tag=NYTimes, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Instagram/Instagram.list, policy=Proxy, tag=Instagram, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Pixiv/Pixiv.list, policy=Proxy, tag=Pixiv, enabled=true
+#https://raw.githubusercontent.com/qwtyer/rules/refs/heads/main/Proxy.list, policy=Proxy, tag=Proxy, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Reddit/Reddit.list, policy=Proxy, tag=Reddit, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Telegram/Telegram.list, policy=Proxy, tag=Telegram, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Tumblr/Tumblr.list, policy=Proxy, tag=Tumblr, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Twitch/Twitch.list, policy=Proxy, tag=Twitch, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Twitter/Twitter.list, policy=Proxy, tag=Twitter, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/VOA/VOA.list, policy=Proxy, tag=VOA, enabled=true
+#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Whatsapp/Whatsapp.list, policy=Proxy, tag=Whatsapp, enabled=true
 # AI
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list, policy=AI, tag=OpenAI, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Claude/Claude.list, policy=AI, tag=Claude, enabled=true
