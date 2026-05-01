@@ -11,8 +11,7 @@ ssid-trigger = "default":RULE,"cellular":RULE,"NETGEAR":DIRECT,"NETGEAR-5G":DIRE
 
 [Proxy]
 
-[Remote Proxy]      
-WestData = https://wd-blue.com/subscribe/pyzbyj-rlef5ccj-4w4r1obe,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
+[Remote Proxy]
 
 [Remote Filter]
 #ALL_Filter = NameRegex, FilterKey = ".*"
