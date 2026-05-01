@@ -65,7 +65,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/
 # Proxy
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BBC/BBC.list, policy=Proxy, tag=BBC, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CNN/CNN.list, policy=Proxy, tag=CNN, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Discord/Discord.list, policy=Discord, tag=Discord, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Discord/Discord.list, policy=Proxy, tag=Discord, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Docker/Docker.list, policy=Proxy, tag=Docker, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Dropbox/Dropbox.list, policy=Proxy, tag=Dropbox, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Facebook/Facebook.list, policy=Proxy, tag=Facebook, enabled=true
