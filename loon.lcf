@@ -15,7 +15,7 @@ WestData = https://wd-blue.com/subscribe/pyzbyj-rlef5ccj-4w4r1obe,udp=true,block
 
 [Remote Filter]
 #ALL_Filter = NameRegex, FilterKey = ".*"
-香港节点 = NameRegex, FilterKey = "(?i)(香港|港|HK|Hong)"
+HK_Filter = NameRegex, FilterKey = "(?i)(香港|港|HK|Hong)"
 JP_Filter = NameRegex, FilterKey = "(?i)(日本|日|JP|Japan)"
 US_Filter = NameRegex, FilterKey = "(?i)(美国|美|US|United States)"
 TW_Filter = NameRegex, FilterKey = "(?i)(台湾|台|TW|Tai)"
@@ -25,21 +25,20 @@ TW_Filter = NameRegex, FilterKey = "(?i)(台湾|台|TW|Tai)"
 [Proxy Chain]
 
 [Proxy Group]
+Proxy = 香港自动,日本自动,美国自动,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+AI = 美国自动,日本自动,香港自动,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
+Google = 香港自动,日本自动,美国自动,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+iCloud = DIRECT,日本自动,香港自动,美国自动,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
+Microsoft = DIRECT,香港自动,日本自动,美国自动,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
+Spotify = 日本自动,香港自动,美国自动,DIRECT,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
+Streaming = 美国自动,日本自动,香港自动,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
 # url-test
-香港自动 = url-test,香港节点,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+香港自动 = url-test,HK_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
 日本自动 = url-test,JP_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
 美国自动 = url-test,US_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
 台湾自动 = url-test,TW_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
-#KR = url-test,KR_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
-#SG = url-test,SG_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
-
-#Proxy = select,香港自动,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
-AI = select,香港自动,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
-#Google = HK,JP,US,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
-#iCloud = DIRECT,JP,HK,US,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
-#Microsoft = DIRECT,HK,JP,US,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
-#Spotify = JP,HK,US,DIRECT,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
-#Streaming = US,HK,JP,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
+#韩国自动 = url-test,KR_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
+#新加坡自动 = url-test,SG_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
 
 [Rule]
 #Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR
@@ -49,21 +48,6 @@ GEOIP,CN,DIRECT
 FINAL,DIRECT
 
 [Remote Rule]
-# AI
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list, policy=AI, tag=OpenAI, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Claude/Claude.list, policy=AI, tag=Claude, enabled=true
-# Google
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Gemini/Gemini.list, policy=Google, tag=Gemini, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list, policy=Google, tag=Google, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTube/YouTube.list, policy=Google, tag=YouTube, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTubeMusic/YouTubeMusic.list, policy=Google, tag=YouTubeMusic, enabled=true
-# iCloud
-# JP
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/DMM/DMM.list, policy=JP, tag=DMM, enabled=true
-https://raw.githubusercontent.com/qwtyer/rules/refs/heads/main/JP.list, policy=JP, tag=JP, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Niconico/Niconico.list, policy=JP, tag=Niconico, enabled=true
-# Microsoft
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Microsoft/Microsoft.list, policy=Microsoft, tag=Microsoft, enabled=true
 # Proxy
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BBC/BBC.list, policy=Proxy, tag=BBC, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CNN/CNN.list, policy=Proxy, tag=CNN, enabled=true
@@ -86,6 +70,22 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Twitter/Twitter.list, policy=Proxy, tag=Twitter, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/VOA/VOA.list, policy=Proxy, tag=VOA, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Whatsapp/Whatsapp.list, policy=Proxy, tag=Whatsapp, enabled=true
+# AI
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list, policy=AI, tag=OpenAI, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Claude/Claude.list, policy=AI, tag=Claude, enabled=true
+# Google
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Gemini/Gemini.list, policy=Google, tag=Gemini, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list, policy=Google, tag=Google, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTube/YouTube.list, policy=Google, tag=YouTube, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTubeMusic/YouTubeMusic.list, policy=Google, tag=YouTubeMusic, enabled=true
+# iCloud
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/iCloud/iCloud.list, policy=iCloud, tag=iCloud, enabled=true
+# JP
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/DMM/DMM.list, policy=日本自动, tag=DMM, enabled=true
+https://raw.githubusercontent.com/qwtyer/rules/refs/heads/main/JP.list, policy=日本自动, tag=JP, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Niconico/Niconico.list, policy=日本自动, tag=Niconico, enabled=true
+# Microsoft
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Microsoft/Microsoft.list, policy=Microsoft, tag=Microsoft, enabled=true
 # Spotify
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Spotify/Spotify.list, policy=Spotify, tag=Spotify, enabled=true
 # Streaming
@@ -95,7 +95,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Netflix/Netflix.list, policy=Streaming, tag=Netflix, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TikTok/TikTok.list, policy=Streaming, tag=TikTok, enabled=true
 # TW
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Bahamut/Bahamut.list, policy=TW, tag=Bahamut, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Bahamut/Bahamut.list, policy=台湾自动, tag=Bahamut, enabled=true
 
 [Rewrite]
 
