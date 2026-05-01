@@ -7,6 +7,7 @@ wifi-access-http-port = 7222
 wifi-access-socks5-port = 7221
 proxy-test-url = http://bing.com/generate_204
 test-timeout = 3
+ssid-trigger = "default":RULE,"cellular":RULE,"NETGEAR":DIRECT,"NETGEAR-5G":DIRECT
 
 [Proxy]
 
