@@ -11,6 +11,7 @@ test-timeout = 3
 [Proxy]
 
 [Remote Proxy]      
+WestData = https://wd-blue.com/subscribe/pyzbyj-rlef5ccj-4w4r1obe,udp=true,block-quic=true,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false
 
 [Remote Filter]
 #ALL_Filter = NameRegex, FilterKey = ".*"
@@ -24,20 +25,21 @@ TW_Filter = NameRegex, FilterKey = "(?i)(台湾|台|TW|Tai)"
 [Proxy Chain]
 
 [Proxy Group]
-Proxy = HK,JP,US,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
-AI = US,JP,HK,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
-Google = HK,JP,US,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
-iCloud = DIRECT,JP,HK,US,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
-Microsoft = DIRECT,HK,JP,US,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
-Spotify = JP,HK,US,DIRECT,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
-Streaming = US,HK,JP,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
 # url-test
-HK = url-test,HK_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+HK = url-test,HK_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
 JP = url-test,JP_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
 US = url-test,US_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
 TW = url-test,TW_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
 #KR = url-test,KR_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
 #SG = url-test,SG_Filter,interval = 180,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+
+Proxy = select,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+#AI = US,JP,HK,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
+#Google = HK,JP,US,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+#iCloud = DIRECT,JP,HK,US,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
+#Microsoft = DIRECT,HK,JP,US,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
+#Spotify = JP,HK,US,DIRECT,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
+#Streaming = US,HK,JP,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
 
 [Rule]
 #Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR
@@ -111,3 +113,6 @@ https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/DiDi_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/12306_remove_ads.lpx, enabled=true
 [Mitm]
+ca-p12 = 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
+ca-passphrase = HUS1417D
+skip-server-cert-verify = false
