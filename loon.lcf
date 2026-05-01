@@ -24,7 +24,7 @@ TW_Filter = NameRegex, FilterKey = "(?i)(台湾|台|TW|Tai)"
 [Proxy Chain]
 
 [Proxy Group]
-Proxy = HK,JP,US,img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+Proxy = HK,JP,US,img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 AI = US,JP,HK,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
 Google = HK,JP,US,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
 iCloud = DIRECT,JP,HK,US,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
